@@ -1,10 +1,5 @@
 @import url(font-awesome.min.css);
 
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2381,7 +2376,7 @@ input, select, textarea {
 		body.is-ie textarea {
 			min-height: 10em;
 		}
-
+/*
 	input[type="checkbox"],
 	input[type="radio"] {
 		-moz-appearance: none;
@@ -2395,6 +2390,7 @@ input, select, textarea {
 		width: 1em;
 		z-index: -1;
 	}
+*/
 
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {

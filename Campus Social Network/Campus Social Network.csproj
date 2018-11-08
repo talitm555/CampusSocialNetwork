@@ -331,6 +331,12 @@
     <Content Include="Views\Shared\_Layout_Teacher.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Admin\AddStudent.cshtml" />
+    <Content Include="Views\Admin\AddTeacher.cshtml" />
+    <Content Include="Views\Admin\AddClass.cshtml" />
+    <Content Include="Views\Admin\AllStudents.cshtml" />
+    <Content Include="Views\Admin\AllTeachers.cshtml" />
+    <Content Include="Views\Admin\AllClasses.cshtml" />
+    <Content Include="Views\Admin\UpdateProfile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\assets\" />
