@@ -213,6 +213,7 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="CSNDB Model.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -266,6 +267,7 @@
     <Content Include="Images\Admins\Class.png" />
     <Content Include="Images\Admins\Student.png" />
     <Content Include="Images\Admins\Teacher.png" />
+    <Content Include="Images\Users\Tommy.png" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -337,10 +339,18 @@
     <Content Include="Views\Admin\AllTeachers.cshtml" />
     <Content Include="Views\Admin\AllClasses.cshtml" />
     <Content Include="Views\Admin\UpdateProfile.cshtml" />
+    <Content Include="Views\Student\Newsfeed.cshtml" />
+    <Content Include="Views\Student\StudentProfile.cshtml" />
+    <Content Include="Views\Student\Messages.cshtml" />
+    <Content Include="Views\Student\ViewTeachers.cshtml" />
+    <Content Include="Views\Student\AccountSettings.cshtml" />
+    <Content Include="Views\Student\ChangePassword.cshtml" />
+    <Content Include="Views\Student\ChangePicture.cshtml" />
+    <Content Include="Views\Admin\ChangePassword.cshtml" />
+    <Content Include="Views\Admin\ChangePicture.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\assets\" />
-    <Folder Include="Images\Users\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

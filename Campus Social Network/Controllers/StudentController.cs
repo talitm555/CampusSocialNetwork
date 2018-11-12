@@ -6,46 +6,26 @@ using System.Web.Mvc;
 
 namespace Campus_Social_Network.Controllers
 {
-    public class AdminController : Controller
+    public class StudentController : Controller
     {
-        
-        // GET: Admin
-        public ActionResult Index()
+        // GET: Student
+        public ActionResult Newsfeed()
         {
             return View();
         }
-
-        public ActionResult AddStudent()
+        public ActionResult StudentProfile()
         {
             return View();
         }
-
-        public ActionResult AddTeacher()
+        public ActionResult Messages()
         {
             return View();
         }
-
-        public ActionResult AddClass()
+        public ActionResult ViewTeachers()
         {
             return View();
         }
-
-        public ActionResult AllStudents()
-        {
-            return View();
-        }
-
-        public ActionResult AllTeachers()
-        {
-            return View();
-        }
-
-        public ActionResult AllClasses()
-        {
-            return View();
-        }
-
-        public ActionResult UpdateProfile()
+        public ActionResult AccountSettings()
         {
             return View();
         }
@@ -57,10 +37,5 @@ namespace Campus_Social_Network.Controllers
         {
             return View();
         }
-
-
-
-
-
     }
 }
